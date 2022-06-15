@@ -8,14 +8,12 @@
 import UIKit
 
 class TableViewController: UITableViewController {
-    func loadJson(filename fileName: String) -> [BookElement]? {
-        var books : [BookElement] = []
+    func loadJson(filename fileName: String) -> [BookElement] {
         if let url = Bundle.main.url(forResource: fileName, withExtension: "json") {
             do {
                 let data = try Data(contentsOf: url)
                 let book = try JSONDecoder().decode([BookElement].self, from: data)
-                books = book
-                return books
+                return book
             } catch {
                 print("error:\(error)")
             }
@@ -25,8 +23,7 @@ class TableViewController: UITableViewController {
     var data : [BookElement] = []
     override func viewDidLoad() {
         super.viewDidLoad()
-        data = loadJson(filename: "books") ?? []
-        
+        data = loadJson(filename: "books")
     }
 
     // MARK: - Table view data source
@@ -41,12 +38,11 @@ class TableViewController: UITableViewController {
         return data.count
     }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "BookCell", for: indexPath) as! BookCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: "BookCell", for: indexPath)as! BookCell
 
             cell.titleLabel?.text = data[indexPath.row].title
             cell.yearlabel?.text =  String(data[indexPath.row].year)
-    
-        cell.subtitleLabel?.text =  data[indexPath.row].author
+            cell.subtitleLabel?.text =  data[indexPath.row].author
 
             return cell
         }
