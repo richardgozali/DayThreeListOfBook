@@ -9,9 +9,11 @@ import UIKit
 
 class BookCell: UITableViewCell {
 
+    @IBOutlet weak var imageDetail: UIImageView!
     @IBOutlet weak var subtitleLabel: UILabel!
     
     @IBOutlet weak var yearlabel: UILabel!
+
     @IBOutlet weak var titleLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()

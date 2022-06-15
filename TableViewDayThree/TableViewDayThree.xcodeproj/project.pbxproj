@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		168DA9C6766BEB2516487EE2 /* Pods_TableViewDayThree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 324AEB42330E55F507F9F199 /* Pods_TableViewDayThree.framework */; };
 		8744749828597CB4006EE421 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8744749728597CB4006EE421 /* AppDelegate.swift */; };
 		8744749A28597CB4006EE421 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8744749928597CB4006EE421 /* SceneDelegate.swift */; };
 		8744749F28597CB4006EE421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8744749D28597CB4006EE421 /* Main.storyboard */; };
 		874474A128597CB6006EE421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874474A028597CB6006EE421 /* Assets.xcassets */; };
 		874474A428597CB6006EE421 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874474A228597CB6006EE421 /* LaunchScreen.storyboard */; };
-		874474AC28597D9C006EE421 /* books.json in Resources */ = {isa = PBXBuildFile; fileRef = 874474AB28597D9C006EE421 /* books.json */; };
 		874474AE28597E33006EE421 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874474AD28597E33006EE421 /* TableViewController.swift */; };
 		874474B0285982AB006EE421 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874474AF285982AB006EE421 /* BookCell.swift */; };
 		874474B2285987D5006EE421 /* modelbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874474B1285987D5006EE421 /* modelbook.swift */; };
+		876E70442859C23000EF6DE1 /* book.json in Resources */ = {isa = PBXBuildFile; fileRef = 876E70432859C23000EF6DE1 /* book.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A3C12D83DF1A37B2918AD1A /* Pods-TableViewDayThree.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewDayThree.release.xcconfig"; path = "Target Support Files/Pods-TableViewDayThree/Pods-TableViewDayThree.release.xcconfig"; sourceTree = "<group>"; };
+		324AEB42330E55F507F9F199 /* Pods_TableViewDayThree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableViewDayThree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F21785244F0E2F0EDB88FB /* Pods-TableViewDayThree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewDayThree.debug.xcconfig"; path = "Target Support Files/Pods-TableViewDayThree/Pods-TableViewDayThree.debug.xcconfig"; sourceTree = "<group>"; };
 		8744749428597CB4006EE421 /* TableViewDayThree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewDayThree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8744749728597CB4006EE421 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8744749928597CB4006EE421 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,10 +30,10 @@
 		874474A028597CB6006EE421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		874474A328597CB6006EE421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		874474A528597CB6006EE421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		874474AB28597D9C006EE421 /* books.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = books.json; path = ../../../Downloads/books.json; sourceTree = "<group>"; };
 		874474AD28597E33006EE421 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		874474AF285982AB006EE421 /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
 		874474B1285987D5006EE421 /* modelbook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelbook.swift; sourceTree = "<group>"; };
+		876E70432859C23000EF6DE1 /* book.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = book.json; path = ../../../../Downloads/book.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +41,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				168DA9C6766BEB2516487EE2 /* Pods_TableViewDayThree.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06ABB2381AE85A76B50787C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				324AEB42330E55F507F9F199 /* Pods_TableViewDayThree.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6942351283444B8FF4FF6DD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39F21785244F0E2F0EDB88FB /* Pods-TableViewDayThree.debug.xcconfig */,
+				2A3C12D83DF1A37B2918AD1A /* Pods-TableViewDayThree.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8744748B28597CB4006EE421 = {
 			isa = PBXGroup;
 			children = (
 				8744749628597CB4006EE421 /* TableViewDayThree */,
 				8744749528597CB4006EE421 /* Products */,
+				6942351283444B8FF4FF6DD3 /* Pods */,
+				06ABB2381AE85A76B50787C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,8 +95,8 @@
 				874474A028597CB6006EE421 /* Assets.xcassets */,
 				874474A228597CB6006EE421 /* LaunchScreen.storyboard */,
 				874474A528597CB6006EE421 /* Info.plist */,
-				874474AB28597D9C006EE421 /* books.json */,
 				874474B1285987D5006EE421 /* modelbook.swift */,
+				876E70432859C23000EF6DE1 /* book.json */,
 			);
 			path = TableViewDayThree;
 			sourceTree = "<group>";
@@ -83,9 +108,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 874474A828597CB6006EE421 /* Build configuration list for PBXNativeTarget "TableViewDayThree" */;
 			buildPhases = (
+				FD12A62ACEBEEC61C3254559 /* [CP] Check Pods Manifest.lock */,
 				8744749028597CB4006EE421 /* Sources */,
 				8744749128597CB4006EE421 /* Frameworks */,
 				8744749228597CB4006EE421 /* Resources */,
+				8BA75C63E95E9B32F98E7D71 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,7 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				874474AC28597D9C006EE421 /* books.json in Resources */,
+				876E70442859C23000EF6DE1 /* book.json in Resources */,
 				874474A428597CB6006EE421 /* LaunchScreen.storyboard in Resources */,
 				874474A128597CB6006EE421 /* Assets.xcassets in Resources */,
 				8744749F28597CB4006EE421 /* Main.storyboard in Resources */,
@@ -142,6 +169,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BA75C63E95E9B32F98E7D71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TableViewDayThree/Pods-TableViewDayThree-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TableViewDayThree/Pods-TableViewDayThree-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TableViewDayThree/Pods-TableViewDayThree-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD12A62ACEBEEC61C3254559 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TableViewDayThree-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8744749028597CB4006EE421 /* Sources */ = {
@@ -294,6 +363,7 @@
 		};
 		874474A928597CB6006EE421 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39F21785244F0E2F0EDB88FB /* Pods-TableViewDayThree.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,6 +391,7 @@
 		};
 		874474AA28597CB6006EE421 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A3C12D83DF1A37B2918AD1A /* Pods-TableViewDayThree.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
